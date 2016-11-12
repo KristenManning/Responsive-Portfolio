@@ -196,18 +196,74 @@ input[type="submit"]{
 }
 
 
-@media screen (max-width: 980) {.main_content{
+@media screen and (max-width: 980px) and (min-width: 769px) {
+
+    h1 {
+    font-size: 22px;
+    line-height: 28px;
+    }
+
+    h2 {
+    font-size: 22px;
+    line-height: 24px;
+    }
+
+    h3 {
+    font-size: 18px;
+    line-height: 20px;
+    }
+
+    .main_content {
     width: 400px;
+    left: 70px;
+    top: 65px;
+    margin-right: 20px;
+    }
+
+    #main_header {
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 100%;
+    font-family: Helvetica;
+    left: 0;
+    top: 0;
+    }
+
+    .sidebar {
+    top: 125px;
+    width: 270px;
+    left: 600px;
+    }
+
+    nav {
+    position: absolute;
+    left: 600px;
+    top: 15px;
+    }
+
+    #name {
+    height: 50px;
+    width: 25%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 70px;
+    }
+
+    #headshot {
+    height:50;
+    width:50;
+    }
 
 }
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
     
 }
 
-@media screen (max-width: 768) {
-    
-}
+@media screen and (max-width: 640px) {
 
-@media screen (max-width: 640) {
     
 }
 
